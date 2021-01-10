@@ -68,6 +68,7 @@
         $('#pop-up-delete').on('show.bs.modal', function (event) {
             var button = $(event.relatedTarget) // Button that triggered the modal
             courseId = button.data('id') 
+            console.log(courseId)
         })    
 
         btnDeleteCourse.onclick = function(){
